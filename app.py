@@ -11,7 +11,7 @@ with open("msx.json") as fichero:
 def inicio():
     return render_template("inicio.html")
     
-@app.route('/juegos')
+@app.route('/juegos',methods=["GET","POST"])
 def juegos():
     categorias=[]
     categorias.append("")
@@ -22,8 +22,8 @@ def juegos():
     if request.method=="GET":
         return render_template("juegos.html",categorias=categorias)
     else:
-        nombre=request.form.get("name")
-        categoria=request.form.get("category")
+        nombre=request.form.get("juego")
+        categoria=request.form.get("categoria")
         for i in datos_json:
             if (nombre == "" or str(i["nombre"]).startswith(nombre)) and (categoria == "" or categoria == i["categoria"]):
                 return render_template('juegos.html',juegos=datos_json,nombre=nombre,categoria=categoria,categorias=categorias)
