@@ -1,0 +1,32 @@
+{% extends "base.html" %}
+{% block title %}Juegos{% endblock %}
+{% block content %}
+<div id="main_wrapper">
+    <header>
+        <div id="portada">
+            <img src="/static/imagenes/banner.gif" id="banner" alt="banner">
+            <img src="/static/imagenes/logo.png" id="logo" alt="logo">
+        </div>
+        <hr>
+        <nav>
+        <ul>
+            <li><a href="https://dit.gonzalonazareno.org">Plataforma Moodle</a></li>
+            <li><a href="https://google.es">Google</a></li>
+            <li><a href="https://josejuinfo.data.blog">Vlog Servicios</a></li>
+            <li><a href="https://debian.org">Página debian</a></li>
+        </ul>
+        </nav>
+    </header>
+    <h4>José Juan Hervás Carrasco</h4>
+    <section>
+        <h1>Juegos</h1>
+        <div>
+            <form id="request" action="/juegos" method="POST">
+                <label>Juego:</label>
+                <input type="text" name="juego" required/><br/>
+                <input type="submit" value="Enviar"/>
+            </form>
+        </div>
+    </section>
+</div>
+{% endblock %}

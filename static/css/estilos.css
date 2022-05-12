@@ -1,0 +1,331 @@
+#audio1 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio1 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio2 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio2 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio3 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio3 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio4 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio4 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio5 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio5 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio6 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio6 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio7 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio7 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio8 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio8 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio9 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio9 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio10 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio10 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#audio11 a{
+    color: black;
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#audio11 a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#banner{
+    float: left;
+}
+
+#contenido{
+    box-shadow: 0px 2px 5px #1c1a19;
+    background-color: green;
+    padding: 2%;
+    text-align: left;
+    width: 98%;
+}
+
+#imagenes li{
+    -webkit-appearance: button;
+    -moz-appearance: button;
+    text-decoration: none;
+    color: initial;
+    margin-right: 20%;
+    margin-top: 2%;
+    padding: 5px;
+    background-color: rgb(29, 209, 29);
+}
+
+#imagenes a{
+    color: black;
+    font-size: 1.3em;
+}
+
+#imagenes a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
+
+#logo{
+    float: right;
+    width: 190px;
+    height: 160px;
+}
+
+#main_wrapper{
+    width: 1200px;
+    margin: auto;
+}
+
+#parrafo1{
+    box-shadow: 0px 2px 5px #1c1a19;
+    width: 100%;
+    padding: 1%;
+    margin-top: 10px;
+    height: 80%;
+    background-color: lightgreen;
+}
+
+#parrafo2{
+    box-shadow: 0px 2px 5px #1c1a19;
+    width: 100%;
+    padding: 1%;
+    margin-top: 10px;
+    height: 200%;
+    background-color: lightgreen;
+}
+
+#parrafo3{
+    box-shadow: 0px 2px 5px #1c1a19;
+    width: 100%;
+    padding: 1%;
+    margin-top: 10px;
+    height: 100%;
+    background-color: lightgreen;
+}
+
+#portada{
+    display: inline-block;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5%;
+    background-color: lime;
+    width: 1200px ;
+    padding: 2%;
+}
+
+audio{
+    margin-top: 15px;
+}
+
+body{
+    background-color: limegreen;
+}
+
+footer{
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5%;
+    padding: 1%;
+    background-color: lightgreen;
+}
+
+h2{
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5%;
+    background-color: rgb(61, 167, 61);
+    text-align: left;
+}
+
+h3{
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5%;
+    background-color: rgb(61, 167, 61);
+    text-align: left;
+}
+
+li{
+    list-style: none;
+}
+
+nav{
+    display: inline-block;
+    width: 1200px;
+    background-color: lime;
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5%;
+}
+
+nav ul{
+    list-style-type: none;
+}
+
+nav li{
+    display: inline-block;
+}
+
+nav a{
+    font-size: 1.3em;
+    color: #181818;
+    padding: 5px;
+    text-decoration: none;
+    background-color: rgb(29, 209, 29);
+    box-shadow: 0px 2px 5px #1c1a19;
+    border-radius: 5%;
+    margin: 2px;
+}
+
+nav a:hover{
+    color: #760001;
+    border-bottom: 3px solid #760001;
+}
