@@ -24,15 +24,15 @@
             <form action="/juegos" method="POST">
                 <div>
                     <label>Juego:</label>
-                    <input type="text" name="juego" required/><br/>
+                    <input type="text" name="juego" value="{{juego}}" />
                 </div>
                 <div>
                     <select name="categoria">
-                        {% for i in categorias %}
-                            {% if i == categoria %}
-                                <option value="{{i}}" selected>{{i}}</option>
+                        {% for cat in categorias %}
+                            {% if cat == categoria %}
+                                <option value="{{cat}}" selected>{{cat}}</option>
                             {% else %}
-                                <option value="{{i}}">{{i}}</option>
+                                <option value="{{cat}}">{{cat}}</option>
                             {% endif %}
                         {% endfor %}
                         <input type="submit" value="Enviar"/>
