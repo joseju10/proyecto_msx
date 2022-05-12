@@ -19,62 +19,24 @@
     </header>
     <h4>José Juan Hervás Carrasco</h4>
     <section>
-        <h1>Juegos</h1>
+        <h1>Juego:{{juego.nombre}}</h1>
         <div>
-            <form action="/juegos" method="POST">
-                <div>
-                    <label>Juego:</label>
-                    <input type="text" name="juego" required/><br/>
-                </div>
-                <div>
-                    <select name="categoria">
-                        {% for i in categorias %}
-                            {% if i == categoria %}
-                                <option value="{{i}}" selected>{{i}}</option>
-                            {% else %}
-                                <option value="{{i}}">{{i}}</option>
-                            {% endif %}
-                        {% endfor %}
-                        <input type="submit" value="Enviar"/>
-                    </select>
-                </div>
-            </form>
-        </div>
-        <hr>
-        <div>
-            {% if juegos %}
-                <h2>Resultados</h2> 
-                    <table>
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Desarrollador</th>
-                            <th>Enlace</th>
-                        </tr>
-                    {% for juego in juegos %}
-                        {% if (nombre == "" or (juego.nombre|string).startswith(nombre)) and (categoria == "" or juego.categoria == categoria) %}
-                            <tr>
-                                <th>{{juego.nombre}}</th>
-                                <th>{{juego.desarrollador}}</th>
-                                <th><a href="/juego/{{juego.id}}">Detalle</a></th>
-                            </tr>
-                        {% endif %}
-                    {% endfor -%}
-                    </table>
-            {% elif nombre %}
-                <h2>Resultados</h2> 
-                    <table>
-                        <tr>
-                            <th>Nombre</th>
-                            <th>Desarrollador</th>
-                            <th>Enlace</th>
-                        </tr>
-                    {% for juego in juegos %}
-                            <tr>
-                                <th>{{juego.nombre}}</th>
-                                <th>{{juego.desarrollador}}</th>
-                                <th><a href="/juego/{{juego.id}}">Detalle</a></th>
-                            </tr>
-                    {% endfor -%}
-                    </table>
+            <h2>Identificador: {{juego.id}}</h2>
+            {% if juego.sistema %}
+                <h2><strong>Sistema: {{juego.sistema}}</h2>
             {% endif %}
+            {% if juego.distribuidor %}
+                <h2><strong>Distribuidor: {{juego.distribuidor}}</h2>
+            {% endif %}
+            {% if juego.desarrollador %}
+                <h2><strong>Desarrollador: {{juego.desarrollador}}</h2>
+            {% endif %}
+            {% if juego.categoria %}
+                <h2>Categoria: {{juego.categoria}}</h2>
+            {% endif %}
+            {% if juego.año %}
+                <h2>Año: {{juego.año}}</h2>
+            {% endif %}
+        </div>
+    </section>
 {% endblock %}

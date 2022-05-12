@@ -29,4 +29,11 @@ def juegos():
                 return render_template('juegos.html',juegos=datos_json,nombre=nombre,categoria=categoria,categorias=categorias)
         return render_template('juegos.html',nombre=nombre,categoria=categoria,categorias=categorias)
 
+@app.route('/juego/<int:identificador>')
+def juego(identificador):
+    for ide in datos_json:
+        if ide["id"] == identificador:
+            return render_template('juego.html',juego=ide)
+    abort(404)
+
 app.run("0.0.0.0",5000,debug=True)
